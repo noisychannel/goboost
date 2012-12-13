@@ -29,7 +29,7 @@ public class WekaSphericalDataSet
                 String label = "A";
                 double[] X = new double[10];
 
-                for (int i = 0; i < X.length; i++)
+                for (int i = 1; i < X.length; i++)
                 {
                     X[i] = rnd.nextDouble();
                     if (Math.abs(X[i]) > radius && label.equalsIgnoreCase("A"))
