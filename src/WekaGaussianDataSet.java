@@ -10,7 +10,7 @@ public class WekaGaussianDataSet
 
     public static void main(String[] args)
     {
-        File file = new File("E:\\code\\MachineLearning\\ML-CS475\\res3\\weka\\gaussian-200\\gaussian-test-20.arff");
+        File file = new File("E:\\code\\MachineLearning\\ML-CS475\\res3\\weka\\gaussian-2000\\gaussian-10.arff");
         BufferedWriter bw;
         try
         {
@@ -24,7 +24,7 @@ public class WekaGaussianDataSet
 
             writeDefinitionToArffFile(bw);
 
-            for (int l = 0; l < 10; l++)
+            for (int l = 0; l < 100 ; l++)
             {
                 double[] mean = {50, 40, 20, 6, 10, 100, 2, 12000, 8, 120};
                 double[] sigma = {25, 15, 3, 1, 5, 12, 0.1, 500, 1, 34};
@@ -32,8 +32,8 @@ public class WekaGaussianDataSet
                 for (int i = 1; i <= 10; i++)
                 {
                     String labelA = "\"A\"";
-                    // Add 10% noise
-                    if (i % 5 == 0)
+                    // Add some noise
+                    if (i % 10 == 0)
                         labelA = "\"B\"";
                     writeDataSet(bw, labelA, mean, sigma);
                 }
@@ -45,8 +45,8 @@ public class WekaGaussianDataSet
                 for (int i = 1; i <= 10; i++)
                 {
                     String labelB = "\"B\"";
-                    // Add 10% noise
-                    if (i % 5 == 0)
+                    // Add some noise
+                    if (i % 10 == 0)
                         labelB = "\"A\"";
                     writeDataSet(bw, labelB, mean2, sigma2);
                 }

@@ -7,12 +7,14 @@ import java.util.Random;
 public class WekaSphericalDataSet
 {
     private static Random rnd = new Random();
+    private static int error = 0;
+    private static int loop = 2000;
 
     public static void main(String[] args)
     {
 
         BufferedWriter bw;
-        File file = new File("E:\\code\\MachineLearning\\ML-CS475\\res3\\weka\\spherical\\spherical.train.arff");
+        File file = new File("E:\\code\\MachineLearning\\ML-CS475\\res3\\weka\\spherical-" + loop + "\\spherical-33.arff");
         double radius = 0.6;
 
         try
@@ -24,7 +26,7 @@ public class WekaSphericalDataSet
 
             writeDefinitionToArffFile(bw);
 
-            for (int example = 0; example < 500; example++)
+            for (int example = 1; example <= loop; example++)
             {
                 String label = "A";
                 double[] X = new double[10];
@@ -37,7 +39,7 @@ public class WekaSphericalDataSet
                 }
 
                 // Add 10% noise
-                if (example % 5 == 0)
+                if (example % 3 == 0)
                 {
                     label = toggle(label);
                 }
@@ -69,6 +71,8 @@ public class WekaSphericalDataSet
             System.exit(-1);
         }
 
+        System.out.println("error % = " + (double) error/loop);
+
 
     }
 
@@ -94,6 +98,7 @@ public class WekaSphericalDataSet
 
     static String toggle(String label)
     {
+        error ++;
         return label.equalsIgnoreCase("A") ? "B" : "A";
     }
 
