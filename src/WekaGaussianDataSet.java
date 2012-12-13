@@ -31,10 +31,10 @@ public class WekaGaussianDataSet
 
                 for (int i = 1; i <= 10; i++)
                 {
-                    String labelA = "\"ClassA\"";
+                    String labelA = "\"A\"";
                     // Add 10% noise
                     if (i % 5 == 0)
-                        labelA = "\"ClassB\"";
+                        labelA = "\"B\"";
                     writeDataSet(bw, labelA, mean, sigma);
                 }
 
@@ -44,10 +44,10 @@ public class WekaGaussianDataSet
 
                 for (int i = 1; i <= 10; i++)
                 {
-                    String labelB = "\"ClassB\"";
+                    String labelB = "\"B\"";
                     // Add 10% noise
                     if (i % 5 == 0)
-                        labelB = "\"ClassA\"";
+                        labelB = "\"A\"";
                     writeDataSet(bw, labelB, mean2, sigma2);
                 }
             }
@@ -99,7 +99,7 @@ public class WekaGaussianDataSet
         definition += "@ATTRIBUTE f8 NUMERIC\n";
         definition += "@ATTRIBUTE f9 NUMERIC\n";
         definition += "@ATTRIBUTE f10 NUMERIC\n";
-        definition += "@ATTRIBUTE class {ClassA,ClassB}\n\n";
+        definition += "@ATTRIBUTE class {A,B}\n\n";
         definition += "@Data";
         bw.write(definition);
         bw.newLine();
