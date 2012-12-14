@@ -9,10 +9,11 @@ public class WekaLinearDataSet {
 	private static Random rnd = new Random();
 
 	public static void main(String[] args) {
+		int noOfSamples = 2000;
 		File file1 = new File(
-				"/Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff");
+				"/Applications/MAMP/htdocs/goboost/res/weka/linear-"+noOfSamples+"/linear.arff");
 		File file2 = new File(
-				"/Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear-1.arff");
+				"/Applications/MAMP/htdocs/goboost/res/weka/linear-"+noOfSamples+"/linear-3.arff");
 		BufferedWriter bw1, bw2;
 		try {
 			if (!file1.exists()) {
@@ -35,48 +36,53 @@ public class WekaLinearDataSet {
 					0.4591264825045235, 0.8104021593622109, 0.3362905692620827,
 					0.8347215710316205, 0.08145738762501631, 0.839838184175911,
 					0.7542028993081025, 0.5021832961493949 };
+			
+//			double[] weightVector = {1,-1,1,-1,1,1,-1,1,1,1};
 
-			double b = 0.0;
-			double epsilon = 100.0;
+//			double modelBias = 5.0;
+//			double epsilonNoise = 10.0;
 
-			double[] maxX = { 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0,
-					100.0, 100.0, 100.0 };
-			double maxWDotX = 0.0;
-
-			for (int i = 0; i < 10; i++) {
-				maxWDotX += maxX[i] * weightVector[i];
-			}
-			double maxY = maxWDotX + b;
 			int incorrectCount = 0;
 
-			for (int iter = 0; iter < 200; iter++) {
+			for (int iter = 0; iter < noOfSamples; iter++) {
 				double[] randomX = new double[10];
 
 				for (int i = 0; i < 10; i++) {
-					randomX[i] = rnd.nextDouble() * 100;
+					randomX[i] = (rnd.nextDouble() * 100) - 50;
 				}
-
-				double randomY = rnd.nextDouble() * maxY;
 
 				double wDotX = 0.0;
 
 				for (int i = 0; i < 10; i++) {
 					wDotX += randomX[i] * weightVector[i];
 				}
-
+				
+				//non-noisy implementation
 				String trueLabel;
-				String noisyLabel;
-				if (randomY - wDotX - b > 0) {
+
+				String noisyLabel = "";
+				if (wDotX > 0) {
 					trueLabel = "\"A\"";
 				} else {
 					trueLabel = "\"B\"";
 				}
-
-				if (randomY - wDotX - b - epsilon > 0) {
-					noisyLabel = "\"A\"";
-				} else {
-					noisyLabel = "\"B\"";
+				
+				noisyLabel = trueLabel;
+				//add 10% noise
+				if (iter % 3 == 0) {
+					if (trueLabel.equals("\"A\"")) {
+						noisyLabel = "\"B\"";
+					}
+					else {
+						noisyLabel = "\"A\"";
+					}
 				}
+
+//				if (wDotX + epsilonNoise > 0) {
+//					noisyLabel = "\"A\"";
+//				} else {
+//					noisyLabel = "\"B\"";
+//				}
 				
 				if (trueLabel != noisyLabel) {
 					incorrectCount++;
@@ -88,7 +94,7 @@ public class WekaLinearDataSet {
 
 			bw1.close();
 			bw2.close();
-			System.out.println((double) incorrectCount / 2);
+			System.out.println((double) incorrectCount *100 / noOfSamples);
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.exit(-1);
