@@ -10,10 +10,14 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../lib/JSAT_r413.jar!/" />
+          <root url="jar://E:/installations/weka/weka.jar!/" />
+          <root url="jar://E:/installations/weka/weka-src.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://E:/installations/weka/weka-src.jar!/src/test/java" />
+          <root url="jar://E:/installations/weka/weka-src.jar!/src/main/java" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>

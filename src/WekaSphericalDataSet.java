@@ -8,7 +8,7 @@ public class WekaSphericalDataSet
 {
     private static Random rnd = new Random();
     private static int error = 0;
-    private static int loop = 2000;
+    private static int loop = 200;
 
     public static void main(String[] args)
     {
