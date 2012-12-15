@@ -1,0 +1,1552 @@
+%%%%%%%%-P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-1.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 0.22 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1587               79.35   %
+Incorrectly Classified Instances       413               20.65   %
+Kappa statistic                          0.5876
+Mean absolute error                      0.3258
+Root mean squared error                  0.3913
+Relative absolute error                 65.313  %
+Root relative squared error             78.3555 %
+Coverage of cases (0.95 level)          99.55   %
+Mean rel. region size (0.95 level)      97.625  %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 783 168 |   a = A
+ 245 804 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         162               81      %
+Incorrectly Classified Instances        38               19      %
+Kappa statistic                          0.619 
+Mean absolute error                      0.3195
+Root mean squared error                  0.371 
+Relative absolute error                 64.0495 %
+Root relative squared error             74.2977 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      98.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 76 19 |  a = A
+ 19 86 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 100 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-1.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 0.91 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1701               85.05   %
+Incorrectly Classified Instances       299               14.95   %
+Kappa statistic                          0.6999
+Mean absolute error                      0.269 
+Root mean squared error                  0.3519
+Relative absolute error                 53.9333 %
+Root relative squared error             70.4712 %
+Coverage of cases (0.95 level)          99      %
+Mean rel. region size (0.95 level)      92.55   %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 789 162 |   a = A
+ 137 912 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         177               88.5    %
+Incorrectly Classified Instances        23               11.5    %
+Kappa statistic                          0.7691
+Mean absolute error                      0.2515
+Root mean squared error                  0.3109
+Relative absolute error                 50.4148 %
+Root relative squared error             62.2671 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      92.75   %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 82 13 |  a = A
+ 10 95 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 200 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-1.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 1.66 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1709               85.45   %
+Incorrectly Classified Instances       291               14.55   %
+Kappa statistic                          0.7081
+Mean absolute error                      0.2676
+Root mean squared error                  0.3504
+Relative absolute error                 53.6411 %
+Root relative squared error             70.1725 %
+Coverage of cases (0.95 level)          99.05   %
+Mean rel. region size (0.95 level)      92.35   %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 797 154 |   a = A
+ 137 912 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         176               88      %
+Incorrectly Classified Instances        24               12      %
+Kappa statistic                          0.7592
+Mean absolute error                      0.251 
+Root mean squared error                  0.3108
+Relative absolute error                 50.3288 %
+Root relative squared error             62.2356 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      92.75   %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 82 13 |  a = A
+ 11 94 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 500 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-1.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 3.93 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1726               86.3    %
+Incorrectly Classified Instances       274               13.7    %
+Kappa statistic                          0.7251
+Mean absolute error                      0.2589
+Root mean squared error                  0.3408
+Relative absolute error                 51.9061 %
+Root relative squared error             68.2466 %
+Coverage of cases (0.95 level)          99.2    %
+Mean rel. region size (0.95 level)      91.975  %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 804 147 |   a = A
+ 127 922 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         180               90      %
+Incorrectly Classified Instances        20               10      %
+Kappa statistic                          0.7991
+Mean absolute error                      0.2384
+Root mean squared error                  0.2966
+Relative absolute error                 47.8031 %
+Root relative squared error             59.3913 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      93.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 83 12 |  a = A
+  8 97 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 1000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-1.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 7.48 seconds
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1742               87.1    %
+Incorrectly Classified Instances       258               12.9    %
+Kappa statistic                          0.7412
+Mean absolute error                      0.2509
+Root mean squared error                  0.3339
+Relative absolute error                 50.2956 %
+Root relative squared error             66.8526 %
+Coverage of cases (0.95 level)          99.25   %
+Mean rel. region size (0.95 level)      90.9    %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 816 135 |   a = A
+ 123 926 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         178               89      %
+Incorrectly Classified Instances        22               11      %
+Kappa statistic                          0.7799
+Mean absolute error                      0.24  
+Root mean squared error                  0.3053
+Relative absolute error                 48.1266 %
+Root relative squared error             61.134  %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      93      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 86  9 |  a = A
+ 13 92 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 2000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-1.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 14.66 seconds
+Time taken to test model on training data: 0.12 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1759               87.95   %
+Incorrectly Classified Instances       241               12.05   %
+Kappa statistic                          0.7582
+Mean absolute error                      0.24  
+Root mean squared error                  0.3265
+Relative absolute error                 48.1091 %
+Root relative squared error             65.3832 %
+Coverage of cases (0.95 level)          99.3    %
+Mean rel. region size (0.95 level)      89.85   %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 822 129 |   a = A
+ 112 937 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         176               88      %
+Incorrectly Classified Instances        24               12      %
+Kappa statistic                          0.7596
+Mean absolute error                      0.237 
+Root mean squared error                  0.3084
+Relative absolute error                 47.5221 %
+Root relative squared error             61.755  %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      91.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 84 11 |  a = A
+ 13 92 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 5000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-1.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 35.18 seconds
+Time taken to test model on training data: 0.25 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1764               88.2    %
+Incorrectly Classified Instances       236               11.8    %
+Kappa statistic                          0.7631
+Mean absolute error                      0.2256
+Root mean squared error                  0.3155
+Relative absolute error                 45.2226 %
+Root relative squared error             63.167  %
+Coverage of cases (0.95 level)          99.6    %
+Mean rel. region size (0.95 level)      88.05   %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 820 131 |   a = A
+ 105 944 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         178               89      %
+Incorrectly Classified Instances        22               11      %
+Kappa statistic                          0.7794
+Mean absolute error                      0.2323
+Root mean squared error                  0.3104
+Relative absolute error                 46.5767 %
+Root relative squared error             62.1677 %
+Coverage of cases (0.95 level)          99.5    %
+Mean rel. region size (0.95 level)      89.75   %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 84 11 |  a = A
+ 11 94 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 10000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-1.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 70.02 seconds
+Time taken to test model on training data: 0.48 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1779               88.95   %
+Incorrectly Classified Instances       221               11.05   %
+Kappa statistic                          0.7783
+Mean absolute error                      0.2076
+Root mean squared error                  0.302 
+Relative absolute error                 41.6171 %
+Root relative squared error             60.4735 %
+Coverage of cases (0.95 level)          99.7    %
+Mean rel. region size (0.95 level)      85.65   %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 832 119 |   a = A
+ 102 947 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         176               88      %
+Incorrectly Classified Instances        24               12      %
+Kappa statistic                          0.7594
+Mean absolute error                      0.2272
+Root mean squared error                  0.3151
+Relative absolute error                 45.5506 %
+Root relative squared error             63.091  %
+Coverage of cases (0.95 level)          99.5    %
+Mean rel. region size (0.95 level)      87.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 83 12 |  a = A
+ 12 93 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical-33.arff%%%%%%%%%%
+
+
+Weka exception: No source has been specified
+
+General options:
+
+-h or -help
+	Output help information.
+-synopsis or -info
+	Output synopsis for classifier (use in conjunction  with -h)
+-t <name of training file>
+	Sets training file.
+-T <name of test file>
+	Sets test file. If missing, a cross-validation will be performed
+	on the training data.
+-c <class index>
+	Sets index of class attribute (default: last).
+-x <number of folds>
+	Sets number of folds for cross-validation (default: 10).
+-no-cv
+	Do not perform any cross validation.
+-split-percentage <percentage>
+	Sets the percentage for the train/test set split, e.g., 66.
+-preserve-order
+	Preserves the order in the percentage split.
+-s <random number seed>
+	Sets random number seed for cross-validation or percentage split
+	(default: 1).
+-m <name of file with cost matrix>
+	Sets file with cost matrix.
+-l <name of input file>
+	Sets model input file. In case the filename ends with '.xml',
+	a PMML file is loaded or, if that fails, options are loaded
+	from the XML file.
+-d <name of output file>
+	Sets model output file. In case the filename ends with '.xml',
+	only the options are saved to the XML file, not the model.
+-v
+	Outputs no statistics for training data.
+-o
+	Outputs statistics only, not the classifier.
+-i
+	Outputs detailed information-retrieval statistics for each class.
+-k
+	Outputs information-theoretic statistics.
+-classifications "weka.classifiers.evaluation.output.prediction.AbstractOutput + options"
+	Uses the specified class for generating the classification output.
+	E.g.: weka.classifiers.evaluation.output.prediction.PlainText
+-p range
+	Outputs predictions for test instances (or the train instances if
+	no test instances provided and -no-cv is used), along with the 
+	attributes in the specified range (and nothing else). 
+	Use '-p 0' if no attributes are desired.
+	Deprecated: use "-classifications ..." instead.
+-distribution
+	Outputs the distribution instead of only the prediction
+	in conjunction with the '-p' option (only nominal classes).
+	Deprecated: use "-classifications ..." instead.
+-r
+	Only outputs cumulative margin distribution.
+-z <class name>
+	Only outputs the source representation of the classifier,
+	giving it the supplied name.
+-xml filename | xml-string
+	Retrieves the options from the XML-data instead of the command line.
+-threshold-file <file>
+	The file to save the threshold data to.
+	The format is determined by the extensions, e.g., '.arff' for ARFF 
+	format or '.csv' for CSV.
+-threshold-label <label>
+	The class label to determine the threshold data for
+	(default is the first label)
+
+Options specific to weka.classifiers.meta.AdaBoostM1:
+
+-P <num>
+	Percentage of weight mass to base training on.
+	(default 100, reduce to around 90 speed up)
+-Q
+	Use resampling for boosting.
+-S <num>
+	Random number seed.
+	(default 1)
+-I <num>
+	Number of iterations.
+	(default 10)
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+-W
+	Full name of base classifier.
+	(default: weka.classifiers.trees.DecisionStump)
+
+Options specific to classifier weka.classifiers.trees.DecisionStump:
+
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+
+%%%%%%%%-P 100 -S 1 -I 100 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical-33.arff%%%%%%%%%%
+
+
+Weka exception: No source has been specified
+
+General options:
+
+-h or -help
+	Output help information.
+-synopsis or -info
+	Output synopsis for classifier (use in conjunction  with -h)
+-t <name of training file>
+	Sets training file.
+-T <name of test file>
+	Sets test file. If missing, a cross-validation will be performed
+	on the training data.
+-c <class index>
+	Sets index of class attribute (default: last).
+-x <number of folds>
+	Sets number of folds for cross-validation (default: 10).
+-no-cv
+	Do not perform any cross validation.
+-split-percentage <percentage>
+	Sets the percentage for the train/test set split, e.g., 66.
+-preserve-order
+	Preserves the order in the percentage split.
+-s <random number seed>
+	Sets random number seed for cross-validation or percentage split
+	(default: 1).
+-m <name of file with cost matrix>
+	Sets file with cost matrix.
+-l <name of input file>
+	Sets model input file. In case the filename ends with '.xml',
+	a PMML file is loaded or, if that fails, options are loaded
+	from the XML file.
+-d <name of output file>
+	Sets model output file. In case the filename ends with '.xml',
+	only the options are saved to the XML file, not the model.
+-v
+	Outputs no statistics for training data.
+-o
+	Outputs statistics only, not the classifier.
+-i
+	Outputs detailed information-retrieval statistics for each class.
+-k
+	Outputs information-theoretic statistics.
+-classifications "weka.classifiers.evaluation.output.prediction.AbstractOutput + options"
+	Uses the specified class for generating the classification output.
+	E.g.: weka.classifiers.evaluation.output.prediction.PlainText
+-p range
+	Outputs predictions for test instances (or the train instances if
+	no test instances provided and -no-cv is used), along with the 
+	attributes in the specified range (and nothing else). 
+	Use '-p 0' if no attributes are desired.
+	Deprecated: use "-classifications ..." instead.
+-distribution
+	Outputs the distribution instead of only the prediction
+	in conjunction with the '-p' option (only nominal classes).
+	Deprecated: use "-classifications ..." instead.
+-r
+	Only outputs cumulative margin distribution.
+-z <class name>
+	Only outputs the source representation of the classifier,
+	giving it the supplied name.
+-xml filename | xml-string
+	Retrieves the options from the XML-data instead of the command line.
+-threshold-file <file>
+	The file to save the threshold data to.
+	The format is determined by the extensions, e.g., '.arff' for ARFF 
+	format or '.csv' for CSV.
+-threshold-label <label>
+	The class label to determine the threshold data for
+	(default is the first label)
+
+Options specific to weka.classifiers.meta.AdaBoostM1:
+
+-P <num>
+	Percentage of weight mass to base training on.
+	(default 100, reduce to around 90 speed up)
+-Q
+	Use resampling for boosting.
+-S <num>
+	Random number seed.
+	(default 1)
+-I <num>
+	Number of iterations.
+	(default 10)
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+-W
+	Full name of base classifier.
+	(default: weka.classifiers.trees.DecisionStump)
+
+Options specific to classifier weka.classifiers.trees.DecisionStump:
+
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+
+%%%%%%%%-P 100 -S 1 -I 200 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical-33.arff%%%%%%%%%%
+
+
+Weka exception: No source has been specified
+
+General options:
+
+-h or -help
+	Output help information.
+-synopsis or -info
+	Output synopsis for classifier (use in conjunction  with -h)
+-t <name of training file>
+	Sets training file.
+-T <name of test file>
+	Sets test file. If missing, a cross-validation will be performed
+	on the training data.
+-c <class index>
+	Sets index of class attribute (default: last).
+-x <number of folds>
+	Sets number of folds for cross-validation (default: 10).
+-no-cv
+	Do not perform any cross validation.
+-split-percentage <percentage>
+	Sets the percentage for the train/test set split, e.g., 66.
+-preserve-order
+	Preserves the order in the percentage split.
+-s <random number seed>
+	Sets random number seed for cross-validation or percentage split
+	(default: 1).
+-m <name of file with cost matrix>
+	Sets file with cost matrix.
+-l <name of input file>
+	Sets model input file. In case the filename ends with '.xml',
+	a PMML file is loaded or, if that fails, options are loaded
+	from the XML file.
+-d <name of output file>
+	Sets model output file. In case the filename ends with '.xml',
+	only the options are saved to the XML file, not the model.
+-v
+	Outputs no statistics for training data.
+-o
+	Outputs statistics only, not the classifier.
+-i
+	Outputs detailed information-retrieval statistics for each class.
+-k
+	Outputs information-theoretic statistics.
+-classifications "weka.classifiers.evaluation.output.prediction.AbstractOutput + options"
+	Uses the specified class for generating the classification output.
+	E.g.: weka.classifiers.evaluation.output.prediction.PlainText
+-p range
+	Outputs predictions for test instances (or the train instances if
+	no test instances provided and -no-cv is used), along with the 
+	attributes in the specified range (and nothing else). 
+	Use '-p 0' if no attributes are desired.
+	Deprecated: use "-classifications ..." instead.
+-distribution
+	Outputs the distribution instead of only the prediction
+	in conjunction with the '-p' option (only nominal classes).
+	Deprecated: use "-classifications ..." instead.
+-r
+	Only outputs cumulative margin distribution.
+-z <class name>
+	Only outputs the source representation of the classifier,
+	giving it the supplied name.
+-xml filename | xml-string
+	Retrieves the options from the XML-data instead of the command line.
+-threshold-file <file>
+	The file to save the threshold data to.
+	The format is determined by the extensions, e.g., '.arff' for ARFF 
+	format or '.csv' for CSV.
+-threshold-label <label>
+	The class label to determine the threshold data for
+	(default is the first label)
+
+Options specific to weka.classifiers.meta.AdaBoostM1:
+
+-P <num>
+	Percentage of weight mass to base training on.
+	(default 100, reduce to around 90 speed up)
+-Q
+	Use resampling for boosting.
+-S <num>
+	Random number seed.
+	(default 1)
+-I <num>
+	Number of iterations.
+	(default 10)
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+-W
+	Full name of base classifier.
+	(default: weka.classifiers.trees.DecisionStump)
+
+Options specific to classifier weka.classifiers.trees.DecisionStump:
+
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+
+%%%%%%%%-P 100 -S 1 -I 500 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical-33.arff%%%%%%%%%%
+
+
+Weka exception: No source has been specified
+
+General options:
+
+-h or -help
+	Output help information.
+-synopsis or -info
+	Output synopsis for classifier (use in conjunction  with -h)
+-t <name of training file>
+	Sets training file.
+-T <name of test file>
+	Sets test file. If missing, a cross-validation will be performed
+	on the training data.
+-c <class index>
+	Sets index of class attribute (default: last).
+-x <number of folds>
+	Sets number of folds for cross-validation (default: 10).
+-no-cv
+	Do not perform any cross validation.
+-split-percentage <percentage>
+	Sets the percentage for the train/test set split, e.g., 66.
+-preserve-order
+	Preserves the order in the percentage split.
+-s <random number seed>
+	Sets random number seed for cross-validation or percentage split
+	(default: 1).
+-m <name of file with cost matrix>
+	Sets file with cost matrix.
+-l <name of input file>
+	Sets model input file. In case the filename ends with '.xml',
+	a PMML file is loaded or, if that fails, options are loaded
+	from the XML file.
+-d <name of output file>
+	Sets model output file. In case the filename ends with '.xml',
+	only the options are saved to the XML file, not the model.
+-v
+	Outputs no statistics for training data.
+-o
+	Outputs statistics only, not the classifier.
+-i
+	Outputs detailed information-retrieval statistics for each class.
+-k
+	Outputs information-theoretic statistics.
+-classifications "weka.classifiers.evaluation.output.prediction.AbstractOutput + options"
+	Uses the specified class for generating the classification output.
+	E.g.: weka.classifiers.evaluation.output.prediction.PlainText
+-p range
+	Outputs predictions for test instances (or the train instances if
+	no test instances provided and -no-cv is used), along with the 
+	attributes in the specified range (and nothing else). 
+	Use '-p 0' if no attributes are desired.
+	Deprecated: use "-classifications ..." instead.
+-distribution
+	Outputs the distribution instead of only the prediction
+	in conjunction with the '-p' option (only nominal classes).
+	Deprecated: use "-classifications ..." instead.
+-r
+	Only outputs cumulative margin distribution.
+-z <class name>
+	Only outputs the source representation of the classifier,
+	giving it the supplied name.
+-xml filename | xml-string
+	Retrieves the options from the XML-data instead of the command line.
+-threshold-file <file>
+	The file to save the threshold data to.
+	The format is determined by the extensions, e.g., '.arff' for ARFF 
+	format or '.csv' for CSV.
+-threshold-label <label>
+	The class label to determine the threshold data for
+	(default is the first label)
+
+Options specific to weka.classifiers.meta.AdaBoostM1:
+
+-P <num>
+	Percentage of weight mass to base training on.
+	(default 100, reduce to around 90 speed up)
+-Q
+	Use resampling for boosting.
+-S <num>
+	Random number seed.
+	(default 1)
+-I <num>
+	Number of iterations.
+	(default 10)
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+-W
+	Full name of base classifier.
+	(default: weka.classifiers.trees.DecisionStump)
+
+Options specific to classifier weka.classifiers.trees.DecisionStump:
+
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+
+%%%%%%%%-P 100 -S 1 -I 1000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical-33.arff%%%%%%%%%%
+
+
+Weka exception: No source has been specified
+
+General options:
+
+-h or -help
+	Output help information.
+-synopsis or -info
+	Output synopsis for classifier (use in conjunction  with -h)
+-t <name of training file>
+	Sets training file.
+-T <name of test file>
+	Sets test file. If missing, a cross-validation will be performed
+	on the training data.
+-c <class index>
+	Sets index of class attribute (default: last).
+-x <number of folds>
+	Sets number of folds for cross-validation (default: 10).
+-no-cv
+	Do not perform any cross validation.
+-split-percentage <percentage>
+	Sets the percentage for the train/test set split, e.g., 66.
+-preserve-order
+	Preserves the order in the percentage split.
+-s <random number seed>
+	Sets random number seed for cross-validation or percentage split
+	(default: 1).
+-m <name of file with cost matrix>
+	Sets file with cost matrix.
+-l <name of input file>
+	Sets model input file. In case the filename ends with '.xml',
+	a PMML file is loaded or, if that fails, options are loaded
+	from the XML file.
+-d <name of output file>
+	Sets model output file. In case the filename ends with '.xml',
+	only the options are saved to the XML file, not the model.
+-v
+	Outputs no statistics for training data.
+-o
+	Outputs statistics only, not the classifier.
+-i
+	Outputs detailed information-retrieval statistics for each class.
+-k
+	Outputs information-theoretic statistics.
+-classifications "weka.classifiers.evaluation.output.prediction.AbstractOutput + options"
+	Uses the specified class for generating the classification output.
+	E.g.: weka.classifiers.evaluation.output.prediction.PlainText
+-p range
+	Outputs predictions for test instances (or the train instances if
+	no test instances provided and -no-cv is used), along with the 
+	attributes in the specified range (and nothing else). 
+	Use '-p 0' if no attributes are desired.
+	Deprecated: use "-classifications ..." instead.
+-distribution
+	Outputs the distribution instead of only the prediction
+	in conjunction with the '-p' option (only nominal classes).
+	Deprecated: use "-classifications ..." instead.
+-r
+	Only outputs cumulative margin distribution.
+-z <class name>
+	Only outputs the source representation of the classifier,
+	giving it the supplied name.
+-xml filename | xml-string
+	Retrieves the options from the XML-data instead of the command line.
+-threshold-file <file>
+	The file to save the threshold data to.
+	The format is determined by the extensions, e.g., '.arff' for ARFF 
+	format or '.csv' for CSV.
+-threshold-label <label>
+	The class label to determine the threshold data for
+	(default is the first label)
+
+Options specific to weka.classifiers.meta.AdaBoostM1:
+
+-P <num>
+	Percentage of weight mass to base training on.
+	(default 100, reduce to around 90 speed up)
+-Q
+	Use resampling for boosting.
+-S <num>
+	Random number seed.
+	(default 1)
+-I <num>
+	Number of iterations.
+	(default 10)
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+-W
+	Full name of base classifier.
+	(default: weka.classifiers.trees.DecisionStump)
+
+Options specific to classifier weka.classifiers.trees.DecisionStump:
+
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+
+%%%%%%%%-P 100 -S 1 -I 2000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical-33.arff%%%%%%%%%%
+
+
+Weka exception: No source has been specified
+
+General options:
+
+-h or -help
+	Output help information.
+-synopsis or -info
+	Output synopsis for classifier (use in conjunction  with -h)
+-t <name of training file>
+	Sets training file.
+-T <name of test file>
+	Sets test file. If missing, a cross-validation will be performed
+	on the training data.
+-c <class index>
+	Sets index of class attribute (default: last).
+-x <number of folds>
+	Sets number of folds for cross-validation (default: 10).
+-no-cv
+	Do not perform any cross validation.
+-split-percentage <percentage>
+	Sets the percentage for the train/test set split, e.g., 66.
+-preserve-order
+	Preserves the order in the percentage split.
+-s <random number seed>
+	Sets random number seed for cross-validation or percentage split
+	(default: 1).
+-m <name of file with cost matrix>
+	Sets file with cost matrix.
+-l <name of input file>
+	Sets model input file. In case the filename ends with '.xml',
+	a PMML file is loaded or, if that fails, options are loaded
+	from the XML file.
+-d <name of output file>
+	Sets model output file. In case the filename ends with '.xml',
+	only the options are saved to the XML file, not the model.
+-v
+	Outputs no statistics for training data.
+-o
+	Outputs statistics only, not the classifier.
+-i
+	Outputs detailed information-retrieval statistics for each class.
+-k
+	Outputs information-theoretic statistics.
+-classifications "weka.classifiers.evaluation.output.prediction.AbstractOutput + options"
+	Uses the specified class for generating the classification output.
+	E.g.: weka.classifiers.evaluation.output.prediction.PlainText
+-p range
+	Outputs predictions for test instances (or the train instances if
+	no test instances provided and -no-cv is used), along with the 
+	attributes in the specified range (and nothing else). 
+	Use '-p 0' if no attributes are desired.
+	Deprecated: use "-classifications ..." instead.
+-distribution
+	Outputs the distribution instead of only the prediction
+	in conjunction with the '-p' option (only nominal classes).
+	Deprecated: use "-classifications ..." instead.
+-r
+	Only outputs cumulative margin distribution.
+-z <class name>
+	Only outputs the source representation of the classifier,
+	giving it the supplied name.
+-xml filename | xml-string
+	Retrieves the options from the XML-data instead of the command line.
+-threshold-file <file>
+	The file to save the threshold data to.
+	The format is determined by the extensions, e.g., '.arff' for ARFF 
+	format or '.csv' for CSV.
+-threshold-label <label>
+	The class label to determine the threshold data for
+	(default is the first label)
+
+Options specific to weka.classifiers.meta.AdaBoostM1:
+
+-P <num>
+	Percentage of weight mass to base training on.
+	(default 100, reduce to around 90 speed up)
+-Q
+	Use resampling for boosting.
+-S <num>
+	Random number seed.
+	(default 1)
+-I <num>
+	Number of iterations.
+	(default 10)
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+-W
+	Full name of base classifier.
+	(default: weka.classifiers.trees.DecisionStump)
+
+Options specific to classifier weka.classifiers.trees.DecisionStump:
+
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+
+%%%%%%%%-P 100 -S 1 -I 5000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical-33.arff%%%%%%%%%%
+
+
+Weka exception: No source has been specified
+
+General options:
+
+-h or -help
+	Output help information.
+-synopsis or -info
+	Output synopsis for classifier (use in conjunction  with -h)
+-t <name of training file>
+	Sets training file.
+-T <name of test file>
+	Sets test file. If missing, a cross-validation will be performed
+	on the training data.
+-c <class index>
+	Sets index of class attribute (default: last).
+-x <number of folds>
+	Sets number of folds for cross-validation (default: 10).
+-no-cv
+	Do not perform any cross validation.
+-split-percentage <percentage>
+	Sets the percentage for the train/test set split, e.g., 66.
+-preserve-order
+	Preserves the order in the percentage split.
+-s <random number seed>
+	Sets random number seed for cross-validation or percentage split
+	(default: 1).
+-m <name of file with cost matrix>
+	Sets file with cost matrix.
+-l <name of input file>
+	Sets model input file. In case the filename ends with '.xml',
+	a PMML file is loaded or, if that fails, options are loaded
+	from the XML file.
+-d <name of output file>
+	Sets model output file. In case the filename ends with '.xml',
+	only the options are saved to the XML file, not the model.
+-v
+	Outputs no statistics for training data.
+-o
+	Outputs statistics only, not the classifier.
+-i
+	Outputs detailed information-retrieval statistics for each class.
+-k
+	Outputs information-theoretic statistics.
+-classifications "weka.classifiers.evaluation.output.prediction.AbstractOutput + options"
+	Uses the specified class for generating the classification output.
+	E.g.: weka.classifiers.evaluation.output.prediction.PlainText
+-p range
+	Outputs predictions for test instances (or the train instances if
+	no test instances provided and -no-cv is used), along with the 
+	attributes in the specified range (and nothing else). 
+	Use '-p 0' if no attributes are desired.
+	Deprecated: use "-classifications ..." instead.
+-distribution
+	Outputs the distribution instead of only the prediction
+	in conjunction with the '-p' option (only nominal classes).
+	Deprecated: use "-classifications ..." instead.
+-r
+	Only outputs cumulative margin distribution.
+-z <class name>
+	Only outputs the source representation of the classifier,
+	giving it the supplied name.
+-xml filename | xml-string
+	Retrieves the options from the XML-data instead of the command line.
+-threshold-file <file>
+	The file to save the threshold data to.
+	The format is determined by the extensions, e.g., '.arff' for ARFF 
+	format or '.csv' for CSV.
+-threshold-label <label>
+	The class label to determine the threshold data for
+	(default is the first label)
+
+Options specific to weka.classifiers.meta.AdaBoostM1:
+
+-P <num>
+	Percentage of weight mass to base training on.
+	(default 100, reduce to around 90 speed up)
+-Q
+	Use resampling for boosting.
+-S <num>
+	Random number seed.
+	(default 1)
+-I <num>
+	Number of iterations.
+	(default 10)
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+-W
+	Full name of base classifier.
+	(default: weka.classifiers.trees.DecisionStump)
+
+Options specific to classifier weka.classifiers.trees.DecisionStump:
+
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+
+%%%%%%%%-P 100 -S 1 -I 10000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical-33.arff%%%%%%%%%%
+
+
+Weka exception: No source has been specified
+
+General options:
+
+-h or -help
+	Output help information.
+-synopsis or -info
+	Output synopsis for classifier (use in conjunction  with -h)
+-t <name of training file>
+	Sets training file.
+-T <name of test file>
+	Sets test file. If missing, a cross-validation will be performed
+	on the training data.
+-c <class index>
+	Sets index of class attribute (default: last).
+-x <number of folds>
+	Sets number of folds for cross-validation (default: 10).
+-no-cv
+	Do not perform any cross validation.
+-split-percentage <percentage>
+	Sets the percentage for the train/test set split, e.g., 66.
+-preserve-order
+	Preserves the order in the percentage split.
+-s <random number seed>
+	Sets random number seed for cross-validation or percentage split
+	(default: 1).
+-m <name of file with cost matrix>
+	Sets file with cost matrix.
+-l <name of input file>
+	Sets model input file. In case the filename ends with '.xml',
+	a PMML file is loaded or, if that fails, options are loaded
+	from the XML file.
+-d <name of output file>
+	Sets model output file. In case the filename ends with '.xml',
+	only the options are saved to the XML file, not the model.
+-v
+	Outputs no statistics for training data.
+-o
+	Outputs statistics only, not the classifier.
+-i
+	Outputs detailed information-retrieval statistics for each class.
+-k
+	Outputs information-theoretic statistics.
+-classifications "weka.classifiers.evaluation.output.prediction.AbstractOutput + options"
+	Uses the specified class for generating the classification output.
+	E.g.: weka.classifiers.evaluation.output.prediction.PlainText
+-p range
+	Outputs predictions for test instances (or the train instances if
+	no test instances provided and -no-cv is used), along with the 
+	attributes in the specified range (and nothing else). 
+	Use '-p 0' if no attributes are desired.
+	Deprecated: use "-classifications ..." instead.
+-distribution
+	Outputs the distribution instead of only the prediction
+	in conjunction with the '-p' option (only nominal classes).
+	Deprecated: use "-classifications ..." instead.
+-r
+	Only outputs cumulative margin distribution.
+-z <class name>
+	Only outputs the source representation of the classifier,
+	giving it the supplied name.
+-xml filename | xml-string
+	Retrieves the options from the XML-data instead of the command line.
+-threshold-file <file>
+	The file to save the threshold data to.
+	The format is determined by the extensions, e.g., '.arff' for ARFF 
+	format or '.csv' for CSV.
+-threshold-label <label>
+	The class label to determine the threshold data for
+	(default is the first label)
+
+Options specific to weka.classifiers.meta.AdaBoostM1:
+
+-P <num>
+	Percentage of weight mass to base training on.
+	(default 100, reduce to around 90 speed up)
+-Q
+	Use resampling for boosting.
+-S <num>
+	Random number seed.
+	(default 1)
+-I <num>
+	Number of iterations.
+	(default 10)
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+-W
+	Full name of base classifier.
+	(default: weka.classifiers.trees.DecisionStump)
+
+Options specific to classifier weka.classifiers.trees.DecisionStump:
+
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+
+%%%%%%%%-P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian-30.arff%%%%%%%%%%
+
+
+Time taken to build model: 0.26 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1800               90      %
+Incorrectly Classified Instances       200               10      %
+Kappa statistic                          0.8   
+Mean absolute error                      0.1791
+Root mean squared error                  0.2998
+Relative absolute error                 35.8107 %
+Root relative squared error             59.9506 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 899 101 |   a = A
+  99 901 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         140               70      %
+Incorrectly Classified Instances        60               30      %
+Kappa statistic                          0.4   
+Mean absolute error                      0.3396
+Root mean squared error                  0.5006
+Relative absolute error                 67.9284 %
+Root relative squared error            100.1124 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 70 30 |  a = A
+ 30 70 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 100 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian-30.arff%%%%%%%%%%
+
+
+Time taken to build model: 0.9 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1800               90      %
+Incorrectly Classified Instances       200               10      %
+Kappa statistic                          0.8   
+Mean absolute error                      0.1753
+Root mean squared error                  0.2977
+Relative absolute error                 35.0587 %
+Root relative squared error             59.5409 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      98.55   %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 899 101 |   a = A
+  99 901 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         140               70      %
+Incorrectly Classified Instances        60               30      %
+Kappa statistic                          0.4   
+Mean absolute error                      0.3381
+Root mean squared error                  0.5043
+Relative absolute error                 67.6109 %
+Root relative squared error            100.8593 %
+Coverage of cases (0.95 level)          99      %
+Mean rel. region size (0.95 level)      98.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 70 30 |  a = A
+ 30 70 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 200 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian-30.arff%%%%%%%%%%
+
+
+Time taken to build model: 1.68 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1800               90      %
+Incorrectly Classified Instances       200               10      %
+Kappa statistic                          0.8   
+Mean absolute error                      0.1744
+Root mean squared error                  0.2967
+Relative absolute error                 34.8712 %
+Root relative squared error             59.3338 %
+Coverage of cases (0.95 level)          99.95   %
+Mean rel. region size (0.95 level)      97.275  %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 899 101 |   a = A
+  99 901 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         140               70      %
+Incorrectly Classified Instances        60               30      %
+Kappa statistic                          0.4   
+Mean absolute error                      0.3384
+Root mean squared error                  0.505 
+Relative absolute error                 67.6885 %
+Root relative squared error            101.0042 %
+Coverage of cases (0.95 level)          98.5    %
+Mean rel. region size (0.95 level)      97.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 70 30 |  a = A
+ 30 70 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 500 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian-30.arff%%%%%%%%%%
+
+
+Time taken to build model: 3.86 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1800               90      %
+Incorrectly Classified Instances       200               10      %
+Kappa statistic                          0.8   
+Mean absolute error                      0.1676
+Root mean squared error                  0.2907
+Relative absolute error                 33.5147 %
+Root relative squared error             58.1407 %
+Coverage of cases (0.95 level)          99.9    %
+Mean rel. region size (0.95 level)      94.975  %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 899 101 |   a = A
+  99 901 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         140               70      %
+Incorrectly Classified Instances        60               30      %
+Kappa statistic                          0.4   
+Mean absolute error                      0.3392
+Root mean squared error                  0.509 
+Relative absolute error                 67.8357 %
+Root relative squared error            101.8014 %
+Coverage of cases (0.95 level)          94.5    %
+Mean rel. region size (0.95 level)      94      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 70 30 |  a = A
+ 30 70 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 1000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian-30.arff%%%%%%%%%%
+
+
+Time taken to build model: 7.51 seconds
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1800               90      %
+Incorrectly Classified Instances       200               10      %
+Kappa statistic                          0.8   
+Mean absolute error                      0.1617
+Root mean squared error                  0.286 
+Relative absolute error                 32.3447 %
+Root relative squared error             57.204  %
+Coverage of cases (0.95 level)          99.9    %
+Mean rel. region size (0.95 level)      91.525  %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 899 101 |   a = A
+  99 901 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         140               70      %
+Incorrectly Classified Instances        60               30      %
+Kappa statistic                          0.4   
+Mean absolute error                      0.3393
+Root mean squared error                  0.5123
+Relative absolute error                 67.8593 %
+Root relative squared error            102.4502 %
+Coverage of cases (0.95 level)          92      %
+Mean rel. region size (0.95 level)      89.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 70 30 |  a = A
+ 30 70 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 2000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian-30.arff%%%%%%%%%%
+
+
+Time taken to build model: 15.13 seconds
+Time taken to test model on training data: 0.12 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1803               90.15   %
+Incorrectly Classified Instances       197                9.85   %
+Kappa statistic                          0.803 
+Mean absolute error                      0.1542
+Root mean squared error                  0.2794
+Relative absolute error                 30.8467 %
+Root relative squared error             55.8797 %
+Coverage of cases (0.95 level)          99.9    %
+Mean rel. region size (0.95 level)      85.6    %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 903  97 |   a = A
+ 100 900 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         140               70      %
+Incorrectly Classified Instances        60               30      %
+Kappa statistic                          0.4   
+Mean absolute error                      0.3372
+Root mean squared error                  0.5136
+Relative absolute error                 67.4462 %
+Root relative squared error            102.7135 %
+Coverage of cases (0.95 level)          90      %
+Mean rel. region size (0.95 level)      85      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 70 30 |  a = A
+ 30 70 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 5000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian-30.arff%%%%%%%%%%
+
+
+Time taken to build model: 35.38 seconds
+Time taken to test model on training data: 0.25 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1808               90.4    %
+Incorrectly Classified Instances       192                9.6    %
+Kappa statistic                          0.808 
+Mean absolute error                      0.1407
+Root mean squared error                  0.2678
+Relative absolute error                 28.1353 %
+Root relative squared error             53.5597 %
+Coverage of cases (0.95 level)          99.8    %
+Mean rel. region size (0.95 level)      78.525  %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 906  94 |   a = A
+  98 902 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         139               69.5    %
+Incorrectly Classified Instances        61               30.5    %
+Kappa statistic                          0.39  
+Mean absolute error                      0.3357
+Root mean squared error                  0.5187
+Relative absolute error                 67.1488 %
+Root relative squared error            103.7305 %
+Coverage of cases (0.95 level)          84.5    %
+Mean rel. region size (0.95 level)      77.25   %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 69 31 |  a = A
+ 30 70 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 10000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-10.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian-30.arff%%%%%%%%%%
+
+
+Time taken to build model: 70.05 seconds
+Time taken to test model on training data: 0.51 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1818               90.9    %
+Incorrectly Classified Instances       182                9.1    %
+Kappa statistic                          0.818 
+Mean absolute error                      0.124 
+Root mean squared error                  0.2507
+Relative absolute error                 24.8012 %
+Root relative squared error             50.1469 %
+Coverage of cases (0.95 level)          99.9    %
+Mean rel. region size (0.95 level)      71.95   %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 909  91 |   a = A
+  91 909 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         141               70.5    %
+Incorrectly Classified Instances        59               29.5    %
+Kappa statistic                          0.41  
+Mean absolute error                      0.333 
+Root mean squared error                  0.5237
+Relative absolute error                 66.6026 %
+Root relative squared error            104.7465 %
+Coverage of cases (0.95 level)          82.5    %
+Mean rel. region size (0.95 level)      71      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 71 29 |  a = A
+ 30 70 |  b = B
+
