@@ -10,13 +10,13 @@ import java.io.InputStreamReader;
 public class TrainingSizeVsAccuracy {
 
 	static int[] trainingSize = { 100, 200, 400, 1000, 2000 };
-	
-	static int[] noiseLevels = {10,20,33};
+
+	static int[] noiseLevels = { 10, 20, 30 };
 
 	static String[] testFiles = {
-		"/Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff",
-		"/Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical-33.arff",
-	"/Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian-30.arff" };
+			"/Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff",
+			"/Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical.arff",
+			"/Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian.arff" };
 
 	private static void test(int iterations, String trainFile, String testFile,
 			String outputFile) throws IOException, InterruptedException {
@@ -78,40 +78,29 @@ public class TrainingSizeVsAccuracy {
 
 	public static void main(String[] args) {
 		try {
-			
-			 String[] trainingFiles = {
-				"/Applications/MAMP/htdocs/goboost/res/weka/linear-"+size+"/linear-"+noise+".arff",
-				"/Applications/MAMP/htdocs/goboost/res/weka/spherical-"+size+"/spherical-"+noise+".arff",
-			"/Applications/MAMP/htdocs/goboost/res/weka/gaussian-"+size+"/gaussian-"+noise+".arff" };
-			
-			String outputFile = "/Applications/MAMP/htdocs/goboost/res/weka/experiments/sizevsaccuracy-"+size+".txt";
-			for (int i = 0; i < files10.length; i++) {
-				String trainFile = files10[i];
-				String testFile = testFiles[i];
-				for (int iteration : iterations) {
-					test(iteration, trainFile, testFile, outputFile);
+
+			for (int size : trainingSize) {
+				for (int noise : noiseLevels) {
+					String[] trainingFiles = {
+							"/Applications/MAMP/htdocs/goboost/res/weka/linear-"
+									+ size + "/linear-" + noise + ".arff",
+							"/Applications/MAMP/htdocs/goboost/res/weka/spherical-"
+									+ size + "/spherical-" + noise + ".arff",
+							"/Applications/MAMP/htdocs/goboost/res/weka/gaussian-"
+									+ size + "/gaussian-" + noise + ".arff" };
+
+					String outputFile = "/Applications/MAMP/htdocs/goboost/res/weka/experiments/sizevsaccuracy-"
+							+ size + ".txt";
+					
+					for (int i = 0; i < trainingFiles.length; i++) {
+						String trainingFile = trainingFiles[i];
+						String testFile = testFiles[i];
+						test(100, trainingFile, testFile, outputFile); 
+					}
+					
 				}
 			}
 
-			outputFile = "/Applications/MAMP/htdocs/goboost/res/weka/experiments/iteraccuracy20.txt";
-
-			for (int i = 0; i < files20.length; i++) {
-				String trainFile = files20[i];
-				String testFile = testFiles[i];
-				for (int iteration : iterations) {
-					test(iteration, trainFile, testFile, outputFile);
-				}
-			}
-
-			outputFile = "/Applications/MAMP/htdocs/goboost/res/weka/experiments/iteraccuracy33.txt";
-
-			for (int i = 0; i < files33.length; i++) {
-				String trainFile = files33[i];
-				String testFile = testFiles[i];
-				for (int iteration : iterations) {
-					test(iteration, trainFile, testFile, outputFile);
-				}
-			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (InterruptedException e) {

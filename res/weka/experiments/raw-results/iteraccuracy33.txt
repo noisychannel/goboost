@@ -1,0 +1,1128 @@
+%%%%%%%%-P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 0.27 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1263               63.15   %
+Incorrectly Classified Instances       737               36.85   %
+Kappa statistic                          0.2629
+Mean absolute error                      0.4627
+Root mean squared error                  0.4792
+Relative absolute error                 92.5318 %
+Root relative squared error             95.8379 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 672 330 |   a = A
+ 407 591 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         159               79.5    %
+Incorrectly Classified Instances        41               20.5    %
+Kappa statistic                          0.5896
+Mean absolute error                      0.4163
+Root mean squared error                  0.4272
+Relative absolute error                 83.2439 %
+Root relative squared error             85.4335 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 76 19 |  a = A
+ 22 83 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 100 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 0.95 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1314               65.7    %
+Incorrectly Classified Instances       686               34.3    %
+Kappa statistic                          0.314 
+Mean absolute error                      0.4515
+Root mean squared error                  0.4723
+Relative absolute error                 90.2956 %
+Root relative squared error             94.4561 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 661 341 |   a = A
+ 345 653 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         168               84      %
+Incorrectly Classified Instances        32               16      %
+Kappa statistic                          0.6776
+Mean absolute error                      0.3969
+Root mean squared error                  0.4091
+Relative absolute error                 79.3634 %
+Root relative squared error             81.8157 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 74 21 |  a = A
+ 11 94 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 200 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 1.71 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1320               66      %
+Incorrectly Classified Instances       680               34      %
+Kappa statistic                          0.3199
+Mean absolute error                      0.447 
+Root mean squared error                  0.4699
+Relative absolute error                 89.3928 %
+Root relative squared error             93.9736 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 681 321 |   a = A
+ 359 639 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         169               84.5    %
+Incorrectly Classified Instances        31               15.5    %
+Kappa statistic                          0.6884
+Mean absolute error                      0.3908
+Root mean squared error                  0.4044
+Relative absolute error                 78.1519 %
+Root relative squared error             80.8789 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 77 18 |  a = A
+ 13 92 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 500 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 4.11 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1324               66.2    %
+Incorrectly Classified Instances       676               33.8    %
+Kappa statistic                          0.324 
+Mean absolute error                      0.4432
+Root mean squared error                  0.4669
+Relative absolute error                 88.6306 %
+Root relative squared error             93.3769 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 658 344 |   a = A
+ 332 666 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         161               80.5    %
+Incorrectly Classified Instances        39               19.5    %
+Kappa statistic                          0.6084
+Mean absolute error                      0.3933
+Root mean squared error                  0.4087
+Relative absolute error                 78.649  %
+Root relative squared error             81.7251 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 74 21 |  a = A
+ 18 87 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 1000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 7.36 seconds
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1329               66.45   %
+Incorrectly Classified Instances       671               33.55   %
+Kappa statistic                          0.329 
+Mean absolute error                      0.4399
+Root mean squared error                  0.4645
+Relative absolute error                 87.9768 %
+Root relative squared error             92.8931 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.925  %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 660 342 |   a = A
+ 329 669 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         162               81      %
+Incorrectly Classified Instances        38               19      %
+Kappa statistic                          0.6187
+Mean absolute error                      0.3917
+Root mean squared error                  0.4079
+Relative absolute error                 78.3223 %
+Root relative squared error             81.5714 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 75 20 |  a = A
+ 18 87 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 2000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 14.59 seconds
+Time taken to test model on training data: 0.11 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1338               66.9    %
+Incorrectly Classified Instances       662               33.1    %
+Kappa statistic                          0.338 
+Mean absolute error                      0.4349
+Root mean squared error                  0.4598
+Relative absolute error                 86.9868 %
+Root relative squared error             91.9517 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.925  %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 659 343 |   a = A
+ 319 679 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         164               82      %
+Incorrectly Classified Instances        36               18      %
+Kappa statistic                          0.6384
+Mean absolute error                      0.3959
+Root mean squared error                  0.4137
+Relative absolute error                 79.1819 %
+Root relative squared error             82.7286 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 75 20 |  a = A
+ 16 89 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 5000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 35.31 seconds
+Time taken to test model on training data: 0.24 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1380               69      %
+Incorrectly Classified Instances       620               31      %
+Kappa statistic                          0.3801
+Mean absolute error                      0.4238
+Root mean squared error                  0.4518
+Relative absolute error                 84.7608 %
+Root relative squared error             90.3692 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.85   %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 668 334 |   a = A
+ 286 712 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         166               83      %
+Incorrectly Classified Instances        34               17      %
+Kappa statistic                          0.6574
+Mean absolute error                      0.3909
+Root mean squared error                  0.4113
+Relative absolute error                 78.1774 %
+Root relative squared error             82.2469 %
+Coverage of cases (0.95 level)          99.5    %
+Mean rel. region size (0.95 level)      99.75   %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 73 22 |  a = A
+ 12 93 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 10000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/linear-2000/linear-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/linear-200/linear.arff%%%%%%%%%%
+
+
+Time taken to build model: 69.89 seconds
+Time taken to test model on training data: 0.47 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1421               71.05   %
+Incorrectly Classified Instances       579               28.95   %
+Kappa statistic                          0.421 
+Mean absolute error                      0.4123
+Root mean squared error                  0.4427
+Relative absolute error                 82.4692 %
+Root relative squared error             88.5445 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.6    %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 702 300 |   a = A
+ 279 719 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         152               76      %
+Incorrectly Classified Instances        48               24      %
+Kappa statistic                          0.5164
+Mean absolute error                      0.3943
+Root mean squared error                  0.4179
+Relative absolute error                 78.8426 %
+Root relative squared error             83.5809 %
+Coverage of cases (0.95 level)          99.5    %
+Mean rel. region size (0.95 level)      99.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 66 29 |  a = A
+ 19 86 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical.arff%%%%%%%%%%
+
+
+Time taken to build model: 0.24 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1334               66.7    %
+Incorrectly Classified Instances       666               33.3    %
+Kappa statistic                          0.0214
+Mean absolute error                      0.4414
+Root mean squared error                  0.4673
+Relative absolute error                 98.615  %
+Root relative squared error             98.7939 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   12  664 |    a = A
+    2 1322 |    b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         197               98.5    %
+Incorrectly Classified Instances         3                1.5    %
+Kappa statistic                         -0.0067
+Mean absolute error                      0.3412
+Root mean squared error                  0.3455
+Relative absolute error                 99.9557 %
+Root relative squared error            100.7504 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0   2 |   a = A
+   1 197 |   b = B
+
+%%%%%%%%-P 100 -S 1 -I 100 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical.arff%%%%%%%%%%
+
+
+Time taken to build model: 0.85 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1338               66.9    %
+Incorrectly Classified Instances       662               33.1    %
+Kappa statistic                          0.0291
+Mean absolute error                      0.4348
+Root mean squared error                  0.4641
+Relative absolute error                 97.1541 %
+Root relative squared error             98.113  %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   16  660 |    a = A
+    2 1322 |    b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         197               98.5    %
+Incorrectly Classified Instances         3                1.5    %
+Kappa statistic                         -0.0067
+Mean absolute error                      0.3362
+Root mean squared error                  0.3425
+Relative absolute error                 98.4675 %
+Root relative squared error             99.8856 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0   2 |   a = A
+   1 197 |   b = B
+
+%%%%%%%%-P 100 -S 1 -I 200 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical.arff%%%%%%%%%%
+
+
+Time taken to build model: 1.56 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1339               66.95   %
+Incorrectly Classified Instances       661               33.05   %
+Kappa statistic                          0.0319
+Mean absolute error                      0.4322
+Root mean squared error                  0.4626
+Relative absolute error                 96.5565 %
+Root relative squared error             97.7895 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   18  658 |    a = A
+    3 1321 |    b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         196               98      %
+Incorrectly Classified Instances         4                2      %
+Kappa statistic                         -0.0101
+Mean absolute error                      0.3347
+Root mean squared error                  0.343 
+Relative absolute error                 98.0397 %
+Root relative squared error            100.012  %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0   2 |   a = A
+   2 196 |   b = B
+
+%%%%%%%%-P 100 -S 1 -I 500 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical.arff%%%%%%%%%%
+
+
+Time taken to build model: 3.5 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1340               67      %
+Incorrectly Classified Instances       660               33      %
+Kappa statistic                          0.0357
+Mean absolute error                      0.4301
+Root mean squared error                  0.4614
+Relative absolute error                 96.091  %
+Root relative squared error             97.5372 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   21  655 |    a = A
+    5 1319 |    b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         196               98      %
+Incorrectly Classified Instances         4                2      %
+Kappa statistic                         -0.0101
+Mean absolute error                      0.3342
+Root mean squared error                  0.3437
+Relative absolute error                 97.8907 %
+Root relative squared error            100.232  %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0   2 |   a = A
+   2 196 |   b = B
+
+%%%%%%%%-P 100 -S 1 -I 1000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical.arff%%%%%%%%%%
+
+
+Time taken to build model: 6.8 seconds
+Time taken to test model on training data: 0.06 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1343               67.15   %
+Incorrectly Classified Instances       657               32.85   %
+Kappa statistic                          0.0441
+Mean absolute error                      0.4272
+Root mean squared error                  0.4592
+Relative absolute error                 95.4581 %
+Root relative squared error             97.0693 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   27  649 |    a = A
+    8 1316 |    b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         195               97.5    %
+Incorrectly Classified Instances         5                2.5    %
+Kappa statistic                         -0.0121
+Mean absolute error                      0.3344
+Root mean squared error                  0.345 
+Relative absolute error                 97.9481 %
+Root relative squared error            100.6134 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0   2 |   a = A
+   3 195 |   b = B
+
+%%%%%%%%-P 100 -S 1 -I 2000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical.arff%%%%%%%%%%
+
+
+Time taken to build model: 13.48 seconds
+Time taken to test model on training data: 0.11 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1353               67.65   %
+Incorrectly Classified Instances       647               32.35   %
+Kappa statistic                          0.0657
+Mean absolute error                      0.4218
+Root mean squared error                  0.4554
+Relative absolute error                 94.2454 %
+Root relative squared error             96.2751 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.925  %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   40  636 |    a = A
+   11 1313 |    b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         193               96.5    %
+Incorrectly Classified Instances         7                3.5    %
+Kappa statistic                         -0.0145
+Mean absolute error                      0.334 
+Root mean squared error                  0.3474
+Relative absolute error                 97.8385 %
+Root relative squared error            101.3031 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.75   %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0   2 |   a = A
+   5 193 |   b = B
+
+%%%%%%%%-P 100 -S 1 -I 5000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical.arff%%%%%%%%%%
+
+
+Time taken to build model: 32.77 seconds
+Time taken to test model on training data: 0.24 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1376               68.8    %
+Incorrectly Classified Instances       624               31.2    %
+Kappa statistic                          0.1159
+Mean absolute error                      0.41  
+Root mean squared error                  0.4463
+Relative absolute error                 91.6036 %
+Root relative squared error             94.3564 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.3    %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   72  604 |    a = A
+   20 1304 |    b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         190               95      %
+Incorrectly Classified Instances        10                5      %
+Kappa statistic                         -0.0163
+Mean absolute error                      0.3389
+Root mean squared error                  0.3595
+Relative absolute error                 99.2723 %
+Root relative squared error            104.8346 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0   2 |   a = A
+   8 190 |   b = B
+
+%%%%%%%%-P 100 -S 1 -I 10000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/spherical-2000/spherical-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/spherical-200/spherical.arff%%%%%%%%%%
+
+
+Time taken to build model: 65.94 seconds
+Time taken to test model on training data: 0.51 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1400               70      %
+Incorrectly Classified Instances       600               30      %
+Kappa statistic                          0.1705
+Mean absolute error                      0.394 
+Root mean squared error                  0.4347
+Relative absolute error                 88.0346 %
+Root relative squared error             91.9002 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      98.775  %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  111  565 |    a = A
+   35 1289 |    b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         183               91.5    %
+Incorrectly Classified Instances        17                8.5    %
+Kappa statistic                         -0.018 
+Mean absolute error                      0.3397
+Root mean squared error                  0.369 
+Relative absolute error                 99.516  %
+Root relative squared error            107.6048 %
+Coverage of cases (0.95 level)          99.5    %
+Mean rel. region size (0.95 level)      98.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0   2 |   a = A
+  15 183 |   b = B
+
+%%%%%%%%-P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian.arff%%%%%%%%%%
+
+
+Time taken to build model: 0.25 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1404               70.2    %
+Incorrectly Classified Instances       596               29.8    %
+Kappa statistic                          0.404 
+Mean absolute error                      0.4155
+Root mean squared error                  0.4559
+Relative absolute error                 83.1031 %
+Root relative squared error             91.1758 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 686 314 |   a = A
+ 282 718 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         198               99      %
+Incorrectly Classified Instances         2                1      %
+Kappa statistic                          0.98  
+Mean absolute error                      0.2985
+Root mean squared error                  0.3018
+Relative absolute error                 59.7054 %
+Root relative squared error             60.3552 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  98   2 |   a = A
+   0 100 |   b = B
+
+%%%%%%%%-P 100 -S 1 -I 100 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian.arff%%%%%%%%%%
+
+
+Time taken to build model: 0.98 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1404               70.2    %
+Incorrectly Classified Instances       596               29.8    %
+Kappa statistic                          0.404 
+Mean absolute error                      0.4086
+Root mean squared error                  0.4535
+Relative absolute error                 81.714  %
+Root relative squared error             90.705  %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 686 314 |   a = A
+ 282 718 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         198               99      %
+Incorrectly Classified Instances         2                1      %
+Kappa statistic                          0.98  
+Mean absolute error                      0.2886
+Root mean squared error                  0.295 
+Relative absolute error                 57.7197 %
+Root relative squared error             59.0014 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  98   2 |   a = A
+   0 100 |   b = B
+
+%%%%%%%%-P 100 -S 1 -I 200 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian.arff%%%%%%%%%%
+
+
+Time taken to build model: 1.79 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1404               70.2    %
+Incorrectly Classified Instances       596               29.8    %
+Kappa statistic                          0.404 
+Mean absolute error                      0.408 
+Root mean squared error                  0.4507
+Relative absolute error                 81.6067 %
+Root relative squared error             90.1396 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.9    %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 686 314 |   a = A
+ 282 718 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         198               99      %
+Incorrectly Classified Instances         2                1      %
+Kappa statistic                          0.98  
+Mean absolute error                      0.2964
+Root mean squared error                  0.3046
+Relative absolute error                 59.2758 %
+Root relative squared error             60.9148 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  98   2 |   a = A
+   0 100 |   b = B
+
+%%%%%%%%-P 100 -S 1 -I 500 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian.arff%%%%%%%%%%
+
+
+Time taken to build model: 4.06 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1408               70.4    %
+Incorrectly Classified Instances       592               29.6    %
+Kappa statistic                          0.408 
+Mean absolute error                      0.4047
+Root mean squared error                  0.4474
+Relative absolute error                 80.9444 %
+Root relative squared error             89.4766 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.7    %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 687 313 |   a = A
+ 279 721 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         197               98.5    %
+Incorrectly Classified Instances         3                1.5    %
+Kappa statistic                          0.97  
+Mean absolute error                      0.2981
+Root mean squared error                  0.308 
+Relative absolute error                 59.613  %
+Root relative squared error             61.6057 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 98  2 |  a = A
+  1 99 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 1000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian.arff%%%%%%%%%%
+
+
+Time taken to build model: 7.97 seconds
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1413               70.65   %
+Incorrectly Classified Instances       587               29.35   %
+Kappa statistic                          0.413 
+Mean absolute error                      0.3998
+Root mean squared error                  0.4455
+Relative absolute error                 79.9628 %
+Root relative squared error             89.1032 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.625  %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 686 314 |   a = A
+ 273 727 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         197               98.5    %
+Incorrectly Classified Instances         3                1.5    %
+Kappa statistic                          0.97  
+Mean absolute error                      0.2932
+Root mean squared error                  0.3055
+Relative absolute error                 58.6449 %
+Root relative squared error             61.106  %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 98  2 |  a = A
+  1 99 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 2000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian.arff%%%%%%%%%%
+
+
+Time taken to build model: 15.27 seconds
+Time taken to test model on training data: 0.12 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1416               70.8    %
+Incorrectly Classified Instances       584               29.2    %
+Kappa statistic                          0.416 
+Mean absolute error                      0.3951
+Root mean squared error                  0.4422
+Relative absolute error                 79.0135 %
+Root relative squared error             88.436  %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.475  %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 686 314 |   a = A
+ 270 730 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         197               98.5    %
+Incorrectly Classified Instances         3                1.5    %
+Kappa statistic                          0.97  
+Mean absolute error                      0.2925
+Root mean squared error                  0.3071
+Relative absolute error                 58.5079 %
+Root relative squared error             61.4294 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.5    %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 98  2 |  a = A
+  1 99 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 5000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian.arff%%%%%%%%%%
+
+
+Time taken to build model: 37.12 seconds
+Time taken to test model on training data: 0.26 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1435               71.75   %
+Incorrectly Classified Instances       565               28.25   %
+Kappa statistic                          0.435 
+Mean absolute error                      0.3809
+Root mean squared error                  0.4318
+Relative absolute error                 76.1752 %
+Root relative squared error             86.3554 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      99.3    %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 699 301 |   a = A
+ 264 736 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         191               95.5    %
+Incorrectly Classified Instances         9                4.5    %
+Kappa statistic                          0.91  
+Mean absolute error                      0.2955
+Root mean squared error                  0.3193
+Relative absolute error                 59.0932 %
+Root relative squared error             63.8579 %
+Coverage of cases (0.95 level)          99.5    %
+Mean rel. region size (0.95 level)      99.25   %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 94  6 |  a = A
+  3 97 |  b = B
+
+%%%%%%%%-P 100 -S 1 -I 10000 -W weka.classifiers.trees.DecisionStump -o -t /Applications/MAMP/htdocs/goboost/res/weka/gaussian-2000/gaussian-30.arff -T /Applications/MAMP/htdocs/goboost/res/weka/gaussian-200/gaussian.arff%%%%%%%%%%
+
+
+Time taken to build model: 72.64 seconds
+Time taken to test model on training data: 0.51 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1447               72.35   %
+Incorrectly Classified Instances       553               27.65   %
+Kappa statistic                          0.447 
+Mean absolute error                      0.3676
+Root mean squared error                  0.4212
+Relative absolute error                 73.5252 %
+Root relative squared error             84.2487 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      98.75   %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 707 293 |   a = A
+ 260 740 |   b = B
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         190               95      %
+Incorrectly Classified Instances        10                5      %
+Kappa statistic                          0.9   
+Mean absolute error                      0.2989
+Root mean squared error                  0.3289
+Relative absolute error                 59.7887 %
+Root relative squared error             65.7703 %
+Coverage of cases (0.95 level)          99.5    %
+Mean rel. region size (0.95 level)      98.75   %
+Total Number of Instances              200     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 96  4 |  a = A
+  6 94 |  b = B
+
