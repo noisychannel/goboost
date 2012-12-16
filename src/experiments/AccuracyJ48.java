@@ -5,21 +5,32 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 import weka.classifiers.Evaluation;
 import weka.classifiers.meta.AdaBoostM1;
-import weka.classifiers.trees.DecisionStump;
+import weka.classifiers.trees.REPTree;
 import weka.core.Instances;
 
-public class TrainingSizeVsAccuracy {
+public class AccuracyJ48 {
 
-	static int[] trainingSize = { 100, 200, 400, 1000, 2000 };
-
-	static int[] noiseLevels = { 10, 20, 30 };
+	static int[] iterations = { 1, 2, 5, 10, 20, 50, 100 };
 	
 	static String[] models = {"linear", "spherical", "gaussian"};
+
+	static String[] files10 = {
+			"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/linear-2000/linear-10.arff",
+			"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/spherical-2000/spherical-10.arff",
+			"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/gaussian-2000/gaussian-10.arff" };
+
+	static String[] files20 = {
+			"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/linear-2000/linear-20.arff",
+			"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/spherical-2000/spherical-20.arff",
+			"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/gaussian-2000/gaussian-20.arff" };
+
+	static String[] files33 = {
+			"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/linear-2000/linear-30.arff",
+			"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/spherical-2000/spherical-30.arff",
+			"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/gaussian-2000/gaussian-30.arff" };
 
 	static String[] testFiles = {
 			"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/linear-200/linear.arff",
@@ -27,32 +38,18 @@ public class TrainingSizeVsAccuracy {
 			"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/gaussian-200/gaussian.arff" };
 
 	public static void main(String[] args) {
-		for (int size : trainingSize) {
-			for (int noise : noiseLevels) {
-				String[] trainingFiles = {
-						"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/linear-"
-								+ size + "/linear-" + noise + ".arff",
-						"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/spherical-"
-								+ size + "/spherical-" + noise + ".arff",
-						"/Applications/MAMP/htdocs/goboost/res/weka/raw-data/gaussian-"
-								+ size + "/gaussian-" + noise + ".arff" };
+		String outputFileTrain = "/Applications/MAMP/htdocs/goboost/res/weka/experiments/raw-results/j48/iteraccuracy33";
+		String outputFileTest = "/Applications/MAMP/htdocs/goboost/res/weka/experiments/raw-results/j48/iteraccuracyTest33";
 
-//					String outputFile = "/Applications/MAMP/htdocs/goboost/res/weka/experiments/sizevsaccuracy-"
-//							+ size + ".txt";
-				
-				for (int i = 0; i < trainingFiles.length; i++) {
-					String trainingFile = trainingFiles[i];
-					String testFile = testFiles[i];
-//						test(100, trainingFile, testFile, outputFile);
-					String outputFileTrain = "/Applications/MAMP/htdocs/goboost/res/weka/experiments/raw-results/sizeAccuracy/sizeVsAccuracy-"+models[i]+noise+".txt";
-					String outputFileTest = "/Applications/MAMP/htdocs/goboost/res/weka/experiments/raw-results/sizeAccuracy/sizeVsAccuracyTest-"+models[i]+noise+".txt";
-					runClassifier(trainingFile, testFile, 100, outputFileTrain, outputFileTest);
-				}
-				
+		for (int i = 0; i < files33.length; i++) {
+			String trainFile = files33[i];
+			String testFile = testFiles[i];
+			for (int iteration : iterations) {
+				runClassifier(trainFile, testFile, iteration, outputFileTrain+models[i]+".txt", outputFileTest+models[i]+".txt");
 			}
 		}
 	}
-	
+
 	private static void runClassifier(String trainFile, String testFile, int iteration, String outputFileTrain, String outputFileTest) {
 		BufferedReader reader = null;
 		try {
@@ -74,8 +71,13 @@ public class TrainingSizeVsAccuracy {
 			adaboost.setWeightThreshold(100);
 			adaboost.setSeed(1);
 			// classifier
-			DecisionStump baseClassifier = new DecisionStump();
-			
+			REPTree baseClassifier = new REPTree();
+			baseClassifier.setInitialCount(0);
+			baseClassifier.setMaxDepth(-1);
+			baseClassifier.setMinNum(2);
+			baseClassifier.setMinVarianceProp(0.001);
+			baseClassifier.setNumFolds(3);
+			baseClassifier.setSeed(1);
 
 			adaboost.setClassifier(baseClassifier);
 
@@ -102,13 +104,13 @@ public class TrainingSizeVsAccuracy {
 			Evaluation eval = new Evaluation(train);
 			eval.evaluateModel(adaboost, train);
 			
-			buffy1.write(train.size() + "\t\t" + eval.pctIncorrect());
+			buffy1.write(iteration + "\t\t" + eval.pctIncorrect());
 			buffy1.newLine();
 			
 			eval = new Evaluation(train);
 			eval.evaluateModel(adaboost, test);
 			
-			buffy2.write(train.size() + "\t\t" + eval.pctIncorrect());
+			buffy2.write(iteration + "\t\t" + eval.pctIncorrect());
 			buffy2.newLine();
 			
 			buffy1.close();
