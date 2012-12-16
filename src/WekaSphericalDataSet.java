@@ -79,7 +79,7 @@ public class WekaSphericalDataSet
     private static void writeDefinitionToArffFile(BufferedWriter bw) throws IOException
     {
         String definition = "";
-        definition += "@RELATION Gaussian \n";
+        definition += "@RELATION Spherical \n";
         definition += "@ATTRIBUTE f1 NUMERIC\n";
         definition += "@ATTRIBUTE f2 NUMERIC\n";
         definition += "@ATTRIBUTE f3 NUMERIC\n";
