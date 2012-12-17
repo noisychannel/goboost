@@ -1,0 +1,106 @@
+\documentclass[letterpaper,11pt]{article}
+\title{Boosting Algorithms and Overfitting : An empirical analysis}
+\date{}
+\author{Gaurav Kumar and Lakshmisha Bhat\\
+  Johns Hopkins University\\
+  \texttt{\{gkumar6,lbhat1\}@jhu.edu}}
+
+
+\usepackage[margin=1in]{geometry}
+% \usepackage{hyperref}
+\usepackage[colorlinks]{hyperref}
+\usepackage{capt-of}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{bbm}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{url}
+\usepackage{wrapfig}
+\usepackage{hyperref} 
+\usepackage{color}
+\usepackage{amstext}
+\usepackage{enumerate}
+\usepackage{amsmath,bm}
+\usepackage{fullpage}
+    
+\renewcommand{\baselinestretch}{1.15}    
+
+\everymath=\expandafter{\the\everymath\displaystyle}
+
+\begin{document}
+\large
+\maketitle
+\thispagestyle{headings}
+
+\vspace{-.3in}
+
+\begin{abstract}
+\noindent
+''Does weak learnability imply strong learnability?''\\
+Boosting is a well-known, general method for improving the accuracy of any given learning algorithm. It is known that Boosting is highly effective in obtaining a strong classifier from a set of weak predictors. Boosting algorithms construct high precision classifiers by taking a weighted combination of weak hypotheses, which do slightly better than random classification. It is also believed that Boosting is often robust to overfitting and reduces in sample error to zero exponentially fast.
+ 
+We have seen during the length of the course that many sophisticated learners suffer from overfitting, a condition where the learner is modeling the noise in data without knowing it. In this context, the claims that Boosting is immune to overfitting are rather surprising – how does Boosting combat overfitting? Our goal, hence, is to understand how Boosting manages to not chase the idiosyncrasies of the training data by performing a literature survey on this issue and then doing an empirical analysis to reaffirm the conclusion.
+ 
+For our study we will use the following definition of overfitting – the condition where we pick the hypothesis with minimal in-sample error and end up with high out-of-sample error. We have chosen to initially boost a decision stump and the perceptron. We will compare the ratio of in-sample to out-of-sample error of the “Boosted” learner with that of sophisticated learner in SVM with polynomial Kernels. We will then boost the SVM with polynomial Kernels and see what effect it has on the results.
+
+\end{abstract}
+
+\section{Proposal Details}
+\begin{enumerate}
+\item Resources - Datasets : We will use the synthetic datasets provided for the assignments during this course. Specifically, we will use the $easy$ and $hard$ datasets.
+\item Methods : Boosting using Adaboost on Decision stumps, Perceptrons and SVMs.
+\item Milestones : Nov 22 : Literature survey complete, Dec 2 : Emperical Study complete, Dec 5: Conclusions drawn and documented.
+\item Final Writeup structure : 
+\begin{enumerate}
+\item Abstract
+\item Introduction
+\item Literature Survey of topic
+\item Conclusions from literature survey
+\item Empirical analysis of topic
+\item Conclusion (comparision of empirical study and literature survey results)
+\item Future Work
+\item References
+\end{enumerate}
+\end{enumerate}
+
+\begin{thebibliography}{9}
+
+\bibitem{s90}
+   R. E. Schapire,
+  \emph{The  Strength  of Weak Learnability}.
+  Machine Learning,
+  5, 197-227,
+  1990.
+\bibitem{sfbl98}
+   R. E. Schapire and Y. Freund and P. Bartlett and W. S. Lee,
+  \emph{Boosting the margin: A new explanation for the effectiveness of voting methods}.
+  The Annals of Statistics,
+  26, 1651-1686,
+  1998.
+\bibitem{mrs}
+   I. Mukherjee and C. Rudin and R. E Schapire,
+  \emph{The rate of convergence of adaboost}.
+  JMLR W\&CP
+\bibitem{hwwmj08}
+   Gholamreza Haffari and Yang Wang and Shaojun Wang and Greg Mori and Feng Jiao
+  \emph{Boosting with Incomplete Information}.
+  ICML, 
+  2008
+\bibitem{cll12}
+  Shang-Tse Chen and Hsuan-Tien Lin and Chi-Jen Lu
+  \emph{An Online Boosting Algorithm with Theoretical Justifications}.
+  ICML, 
+  2012
+\bibitem{byb09}
+  B. Babenko and M. Yang and S. Belongie
+  \emph{A Family of Online Boosting Algorithms}.
+  3rd IEEE ICCV Workshop on On-line Learning for Computer Vision, 
+  1346-1353, 2009a.
+
+\end{thebibliography}
+\end{document}
