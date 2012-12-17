@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section*.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section*.2}{Background}{}% 2
+\BOOKMARK [2][-]{section*.3}{AdaBoost}{section*.2}% 3
+\BOOKMARK [3][-]{section*.4}{Training Error with AdaBoost}{section*.3}% 4
+\BOOKMARK [3][-]{section*.5}{Generalization Error}{section*.3}% 5
+\BOOKMARK [2][-]{section*.6}{Generalization error as a function of margin distributions}{section*.2}% 6
+\BOOKMARK [1][-]{section*.7}{Summary of current theoretical beliefs}{}% 7
+\BOOKMARK [1][-]{section*.8}{Empirical Analysis of Boosting Algorithms}{}% 8
+\BOOKMARK [2][-]{section*.9}{Data Sets}{section*.8}% 9
+\BOOKMARK [2][-]{section*.10}{Experiments}{section*.8}% 10
+\BOOKMARK [3][-]{section*.11}{Experiment1 : Classification Accuracy vs Training Iterations}{section*.10}% 11
+\BOOKMARK [3][-]{section*.12}{Conclusions from Experiment1}{section*.10}% 12
+\BOOKMARK [3][-]{section*.13}{Experiment2 : Classification Accuracy vs Size of Training set}{section*.10}% 13
+\BOOKMARK [3][-]{section*.14}{Conclusions from Experiment2}{section*.10}% 14
+\BOOKMARK [3][-]{section*.15}{Experiment3 : Classification Accuracy vs Iterations for various base classifiers}{section*.10}% 15
+\BOOKMARK [1][-]{section*.16}{Conclusion}{}% 16

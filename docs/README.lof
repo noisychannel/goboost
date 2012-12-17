@@ -1,0 +1,12 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Classification accuracy vs training iterations for Adaboost with a linear dataset.}}{6}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Classification accuracy vs training iterations for Adaboost with a gaussian dataset.}}{7}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Classification accuracy vs training iterations of Adaboost with a spherical dataset.}}{7}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Classification accuracy vs size of Training set for Adaboost with a linear dataset.}}{8}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Classification accuracy vs size of Training set for Adaboost with a gaussian dataset.}}{9}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Classification accuracy vs size of Training set for Adaboost with a spherical dataset.}}{9}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Training error for base classifiers vs iterations for Adaboost with a linear dataset}}{10}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Training error for base classifiers vs iterations for Adaboost with a gaussian dataset}}{11}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Training error for base classifiers vs iterations for Adaboost with a spherical dataset}}{11}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Test error for base classifiers vs iterations for Adaboost with a linear dataset}}{12}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Test error for base classifiers vs iterations for Adaboost with a gaussian dataset}}{12}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Test error for base classifiers vs iterations for Adaboost with a spherical dataset}}{13}{figure.12}
